@@ -34,7 +34,7 @@ public:
 
 private:
     std::vector<bool> bitArray; // Vector de bits para el filtro
-    size_t m; // Tamaño del filtro (bits)
+    size_t m; // Tamaño del filtro (bits de 0s y 1s)
     size_t k; // Número de funciones hash
 
     // Genera los k índices para una URL dada.
